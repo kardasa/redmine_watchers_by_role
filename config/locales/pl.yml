@@ -1,0 +1,6 @@
+pl:
+  watchers_select_multiple: "Wybierz wielu obserwatorów według ich roli: "
+  button_select: "Wybierz"
+  button_unselect: "Odznacz"
+  button_select_all: "Wybierz Wszystkich"
+  button_unselect_all: "Odznacz Wszystkich"
