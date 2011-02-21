@@ -18,10 +18,10 @@ roles+="<option value=\"#{values.join(',')}\">#{key[:name]}</option>"
 end %>
 <%= select_tag(:watcher_multiple, roles)
 %>
-  <input type="submit" value="Select" onclick="return checkSome('issue[watcher_user_ids][]')" /> |
-  <input type="submit" value="Unselect" onclick="return uncheckSome('issue[watcher_user_ids][]')" /> |
-  <input type="submit" value="Select All" onclick="return checkAll('issue[watcher_user_ids][]')" /> |
-  <input type="submit" value="Unselect All" onclick="return uncheckAll('issue[watcher_user_ids][]')" />
+  <input type="submit" value="<%= l(:button_select) %>" onclick="return checkSome('issue[watcher_user_ids][]')" /> |
+  <input type="submit" value="<%= l(:button_unselect) %>" onclick="return uncheckSome('issue[watcher_user_ids][]')" /> |
+  <input type="submit" value="<%= l(:button_select_all) %>" onclick="return checkAll('issue[watcher_user_ids][]')" /> |
+  <input type="submit" value="<%= l(:button_unselect_all) %>" onclick="return uncheckAll('issue[watcher_user_ids][]')" />
 </p>
 
 <% content_for :header_tags do %>
