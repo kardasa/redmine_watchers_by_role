@@ -1,6 +1,8 @@
 = Redmine Select Watchers By Role Plugin
 
-Allows issue creator to select multiple watchers by role assigment. Forked from orginal author: alvila repository for testing purposes
+Allows issue creator to select multiple watchers by role assignment. Forked from orginal author: alvila repository.
+My fork was created to test usability of plugin for the needs of my company. I added polish translation and button localization.
+This fork should easy up installation of the plugin with all necessary changes to localization needed by my company.
 
 = Install
 
